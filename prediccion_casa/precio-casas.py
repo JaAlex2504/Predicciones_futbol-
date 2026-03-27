@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
 # 1. CARGA DE DATOS
-URL_DATOS_GITHUB = "https://github.com/JaAlex2504/Predicciones_futbol-/blob/e2c6e1a3c336ffe4b1e7e35071124ff7ef24a701/data/melb_data.csv"
+URL_DATOS_GITHUB = "https://raw.githubusercontent.com/JaAlex2504/Predicciones_futbol-/refs/heads/main/data/melb_data.csv"
 
 try:
     df = pd.read_csv(URL_DATOS_GITHUB)
